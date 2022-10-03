@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de caixas</title>
+</head>
+<body>
+    <h1>Modelo de caixas</h1>
+    <p> Altura = height <br> Largura = Width
+        Linha em volta do conteúdo = border <br>
+        Espaço entre a linha e o conteúdo = padding <br>
+        Espaço externo ao border = margin <br>
+        Linha fora do border (dentro do espaço de margin) = outline <br>
+
+    </p>
+
+    <h1>Tipos de caixa</h1>
+    <h2>box-level</h2>
+    <p>Sempre se inicia em uma linha nova. <br>
+       Sempre oculpa a largura total do navegador. (100% da viewport) <br>
+       Ex: div
+    </p>
+    <h3>Exemplos de box-level</h3>
+    <div>
+    <h1> - <h6>
+    <p>
+    <main>
+    <header>
+    <nav>
+    <article>
+    <aside>
+    <footer>
+    <form>
+    <video>
+
+    <h2>inline-level</h2>
+    <p>Não pula para a próxima linha. <br>
+       Desenha a caixa para delimitar o conteúdo. <br>
+       Não quebra a linha para continuar o conteúdo. 
+       Ex: span 
+    </p>
+    <h3>Exemplos de inline-level</h3>
+    <span></span>
+    <a href=""></a>
+    <code></code>
+    <small></small>
+    <strong></strong>
+    <em></em>
+    <sup></sup> - <sub></sub>
+    <label for=""></label>
+    <button></button>
+    <input type="text">
+    <select name="" id=""></select>
+</body>
+</html>
